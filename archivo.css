@@ -1,0 +1,283 @@
+* {
+    font-family: "Headland One", serif;
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: 232946;
+    
+  }
+
+
+  
+  
+a {
+    text-decoration: none;
+}
+  
+  header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 150px; 
+    background-color:fffffe; 
+    padding: 20px;
+}
+
+h1 {
+    text-align: center; 
+    font-size: 40px; 
+    color: 000000;
+    
+}
+
+.imagen {
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px
+}
+
+h3 {
+    text-align: center; 
+    font-size: 24px; 
+    color: 000000;
+    
+    margin-left: 45px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+
+.nombre {
+    margin-top: -570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrera {
+    margin-left: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyecto {
+    margin-left: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.descripcion {
+    margin-left: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prototipo {
+    margin-left: -270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sitio {
+    margin-left: -335px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.repositorio {
+    margin-left: -255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color:fffffe ;
+    height: 100px;
+}
+
+.logo{
+    height: 100px;
+}
+
+@media screen and (max-width: 768px) and (min-width:200px){
+    header{
+        max-height: 400px;
+        max-width: 1500px;
+        min-width: 1000px;
+        width: 1200px;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        height: auto;
+        
+    }
+    .imagen {
+        height: 500px;
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 500px;
+    }
+    .nombre{
+        max-width: 1000px;
+        width: 800px;
+        margin: 0;
+        margin-bottom: 30px;
+        margin-left: 140px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .carrera {
+        max-width: 1000px;
+        width: 850px;
+        margin: 0;
+        margin-bottom: 30px;
+        margin-left: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .proyecto {
+        max-width: 1000px;
+        width: 600px;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descripcion {
+        max-width: 1000px;
+        width: 700%;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .prototipo {
+        max-width: 1000px;
+        width: 600px;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .sitio {
+        max-width: 1000px;
+        width: 600px;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .repositorio {
+        max-width: 1000px;
+        width: 600px;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        max-width: 1200px;
+        width: 1200px;
+        height: 190px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    footer img {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+@media screen and (min-width:820px) and (max-width:1280px) {
+    header {
+        max-width: 1000px;
+        max-height: 65px;
+    }
+     .imagen {
+        width: 360px;
+        height: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        
+     }
+
+     .nombre {
+        margin: 0;
+        margin-bottom: 15px;
+     }
+
+     .carrera {
+        margin: 0;
+        margin-bottom: 15px;
+     }
+
+     .proyecto{
+        margin: 0;
+        margin-bottom: 15px;
+     }
+     .descripcion {
+        margin: 0;
+        margin-bottom: 15px;
+     }
+     .prototipo {
+        margin: 0;
+        margin-bottom: 15px;
+
+     }
+
+     .sitio {
+        margin: 0;
+        margin-bottom: 15px;
+     }
+     .repositorio {
+        margin: 0;
+        margin-bottom: 15px;
+     }
+
+     footer {
+        max-width: 1100px;
+        max-height: 110px;
+        
+
+     }
+
+    }
